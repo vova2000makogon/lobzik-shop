@@ -470,17 +470,6 @@
       renderProducts(btn.dataset.category);
     });
   });
-  html, body {
-  height: 100%;
-  width: 100%;
-}
-
-main {
-  min-height: calc(100vh - 140px); /* 100% висоти мінус шапка та меню */
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
 
   renderProducts();
   updateCartCounter();
